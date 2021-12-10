@@ -1,1 +1,1 @@
-web: voila --port=$PORT --no-browser --enable_nbextensions=True api-colab.ipynb 
+web: uvicorn api-colab:app
