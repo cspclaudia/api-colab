@@ -1,1 +1,1 @@
-web: voila --port=$PORT --no-browser api-colab.ipynb 
+web: uvicorn api-colab:app --host=0.0.0.0 --port=${PORT:-5000}
