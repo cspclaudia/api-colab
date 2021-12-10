@@ -57,7 +57,7 @@ pywinpty
 PyYAML==6.0
 pyzmq==22.3.0
 requests==2.26.0
-scikit-learn==1.1.dev0
+scikit-learn
 scipy==1.7.3
 Send2Trash==1.8.0
 six==1.16.0
