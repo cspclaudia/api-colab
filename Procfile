@@ -1,1 +1,1 @@
-web: gunicorn api-colab:app
+web: uvicorn api-colab:app
