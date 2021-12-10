@@ -1,1 +1,1 @@
-web: uvicorn api-colab:app
+web: uvicorn api-colab:app --host=0.0.0.0 --port=${PORT:-5000}
