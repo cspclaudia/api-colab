@@ -1,1 +1,1 @@
-web: with_ngrok python $IPYTHON_OPTS -cp api-colab:app Main
+web: with_ngrok java $JAVA_OPTS -cp target/classes:target/dependency/* Main
