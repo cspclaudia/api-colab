@@ -1,1 +1,1 @@
-web: uvicorn api-colab:app --host=0.0.0.0 --port=${PORT:-5000}
+web: voila --port=$PORT --no-browser --enable_nbextensions=True api-colab.ipynb 
