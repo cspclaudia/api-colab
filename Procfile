@@ -1,1 +1,1 @@
-web: gunicorn api-colab:app
+web: voila --port=$PORT --no-browser --enable_nbextensions=True api-colab.ipynb 
