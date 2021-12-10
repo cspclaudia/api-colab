@@ -1,1 +1,1 @@
-web: with_ngrok python $IPYTHON_OPTS -cp target/classes:target/dependency/* Main
+web: voila --port=$PORT --no-browser api-colab.ipynb
