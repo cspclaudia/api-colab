@@ -1,1 +1,1 @@
-web: gunicorn -w 3 -k uvicorn.workers.UvicornWorker api-colab:app
+web: gunicorn api-colab:app
