@@ -1,1 +1,1 @@
-web: with_ngrok python $PYTHON_OPTS -cp api-colab:app Main
+web: with_ngrok python $IPYTHON_OPTS -cp api-colab:app Main
